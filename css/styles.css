@@ -1,0 +1,270 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #4A4B59;
+    overflow-x: hidden;
+}
+/* 
+html {
+    max-width: 400px;
+    margin: 0 auto;
+} */
+
+.wrapper {
+    padding: 0 20px;
+    height: 91vh;
+}
+
+a {
+    text-decoration: none;
+    color: #4A4B59;
+}
+
+a:hover {
+    color: #4877B2;
+    text-decoration: none;
+}
+
+/* .row {
+    width: 100%;
+} */
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+h5 {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 0.625rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+/* navigation */
+.navbar {
+    background-color: #fff !important;
+    display: block;
+    height: 50px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.nav-button {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+}
+
+.logo {
+    height: 25px;
+}
+
+.comp-name {
+    text-align: center;
+    font-weight: 400;
+    color: #4877B2;
+}
+
+/* inside */
+.contents {
+    position: relative;
+    top: 70px;
+}
+
+.row-title {
+    font-size: 0.75rem;
+    color: #75B7F2;
+    margin-bottom: 10px;
+}
+
+
+/* announcements */
+.announce {
+    width: 25px;
+}
+
+/* tasks */
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .scrolling-wrapper .card {
+    display: inline-block;
+  }
+  
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .scrolling-wrapper-flexbox .card {
+    flex: 0 0 auto;
+    margin-right: 3px;
+  }
+  
+  .scrolling-wrapper,
+  .scrolling-wrapper-flexbox {
+    height: 250px;
+    width: 115%;
+    padding-left: 5px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .scrolling-wrapper::-webkit-scrollbar,
+  .scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+/* cards */
+.card {
+    border: 1px solid white;
+    width: 150px;
+    height: 235px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 18px rgba(0,0,0,0.16);
+    margin-right: 10px;
+    padding: 15px;
+    word-break: break-all;
+  }
+
+.card-title {
+    text-transform: uppercase;
+    color: #9198AD;
+    font-size: 8px;
+    margin-bottom: 2px;
+}
+
+.card-button {
+    position: relative;
+    bottom: -25px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #BCC4DB;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #4A4B59;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* timeline */
+.timeline-date {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 auto 10px;
+    line-height: 4.5;
+    height: 55px;
+    width: 55px;
+    border: 1px solid #75B7F2;
+    border-radius: 100%;
+}
+
+.timeline-details {
+    font-size: 10px;
+    line-height: 1.2;
+    color: #4A4B59;
+}
+
+/* profile */
+.profile {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 3px 5px 18px rgba(0,0,0,0.16);
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 100%;
+}
+
+/* goals */
+.goals-card {
+    background-color: #75B7F2;
+    border-radius: 5px;
+    box-shadow: 3px 5px 18px rgba(0,0,0,0.16);
+    padding: 15px;
+    text-align: center;
+}
+
+.goals-card p {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+/* menu */
+.menu-details {
+    font-size: 12px;
+}
+
+.menu-card {
+    border-radius: 5px;
+    box-shadow: 3px 5px 18px rgba(0,0,0,0.16);
+    padding: 20px;
+    margin-bottom: 25px;
+    line-height: 1.3;
+    height: 175px;
+}
+
+.menu .col-6:nth-of-type(1) .menu-card {
+    background-color: #75B7F2;
+}
+
+.menu .col-6:nth-of-type(2) .menu-card {
+    background-color: #BCC4DB;
+}
+
+.menu .col-6:nth-of-type(3) .menu-card {
+    background-color: #16DEBB;
+}
+
+.menu .col-6:nth-of-type(4) .menu-card {
+    background-color: #4877B2;
+}
+
+.menu .col-6:nth-of-type(5) .menu-card {
+    background-color: #75B7F2;
+}
+
+.menu .col-6:nth-of-type(6) .menu-card {
+    background-color: #BCC4DB;
+}
+
+.menu-card img, .menu-card h4, .menu-card p {
+    margin-bottom: 10px;
+}
+
+/* footer */
+.selected {
+    font-weight: 700;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
