@@ -268,3 +268,18 @@ p {
     font-size: 14px;
 }
 
+
+/* buttons */
+.btn-primary {
+    font-size: 15px;
+    background-color: #BCC4DB;
+    border: none;
+    color: #4A4B59;
+}
+
+.btn-secondary {
+    font-size: 15px;
+    background-color: #fff;
+    color: #4A4B59;
+    border: none;
+}
